@@ -1,4 +1,4 @@
-
+#本名
 def find3(s):
     n=len(s)
     res=""
@@ -6,3 +6,4 @@ def find3(s):
         if x % 3 ==0 or "3" in str(x) :
             res+=s[x-1]
     return res
+    
